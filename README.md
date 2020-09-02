@@ -60,15 +60,15 @@ values etc.
 3. EDA: Study the data distribution in each attribute and target variable, share your
 findings.
 
-● Number of unique in each column?
+    ● Number of unique in each column?
 
-● Number of people with zero mortgage?
+    ● Number of people with zero mortgage?
 
-● Number of people with zero credit card spending per month?
+    ● Number of people with zero credit card spending per month?
 
-● Value counts of all categorical columns.
+    ● Value counts of all categorical columns.
 
-● Univariate and Bivariate analysis
+    ● Univariate and Bivariate analysis
 
 4. Apply necessary transformations for the feature variables.
 5. Normalise your data and split the data into training and test set in the ratio of 70:30
