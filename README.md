@@ -21,20 +21,35 @@ department wants you to build a model that will help them identify the potential
 customers who have a higher probability of purchasing the loan. This will increase the
 success ratio while at the same time reduce the cost of the campaign.
 # Attribute Information:
+
 ● ID: Customer ID
+
 ● Age: Customer's age in completed years
+
 ● Experience: #years of professional experience
+
 ● Income: Annual income of the customer ($000)
+
 ● ZIP Code: Home Address ZIP code.
+
 ● Family: Family size of the customer
+
 ● CCAvg: Avg. spending on credit cards per month ($000)
+
 ● Education: Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional
+
 ● Mortgage: Value of house mortgage if any. ($000)
+
 ● Personal Loan: Did this customer accept the personal loan offered in the last campaign?
+
 ● Securities Account: Does the customer have a securities account with the bank?
+
 ● CD Account: Does the customer have a certificate of deposit (CD) account with the bank?
+
 ● Online: Does the customer use internet banking facilities?
+
 ● Credit card: Does the customer use a credit card issued by the bank?
+
 # Objective:
 The classification goal is to predict the likelihood of a liability customer buying personal
 loans.
@@ -44,11 +59,17 @@ values etc.
 2. Check if you need to clean the data for any of the variable.s
 3. EDA: Study the data distribution in each attribute and target variable, share your
 findings.
+
 ● Number of unique in each column?
+
 ● Number of people with zero mortgage?
+
 ● Number of people with zero credit card spending per month?
+
 ● Value counts of all categorical columns.
+
 ● Univariate and Bivariate analysis
+
 4. Apply necessary transformations for the feature variables.
 5. Normalise your data and split the data into training and test set in the ratio of 70:30
 respectively.
